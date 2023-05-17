@@ -1,0 +1,19 @@
+site_name: FancyDocs
+theme:
+  name: material
+  palette:
+    scheme: slate
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
